@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int m, n, i, j, no_of_zero = 0;
-    cout << "Enter the number of m:";
+    cout << "Enter the number of row m:";
     cin >> m;
     cout << "Enter the number of column n:";
     cin >> n;
