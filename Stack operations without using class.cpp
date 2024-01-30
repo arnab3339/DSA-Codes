@@ -27,7 +27,7 @@ void display() {
     int i;
     if (top >= 0) {
         cout << "Stack elements are: ";
-        for (i = top; i >= 0; i--) {
+        for (i = 0; i <= top; i++) {
             cout << stack[i] << " ";
         }
     } else {
